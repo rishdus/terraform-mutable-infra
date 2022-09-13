@@ -6,5 +6,3 @@ module "vpc" {
   AZ = var.AZ
   default_vpc_id = var.default_vpc_id
 }
-
-o
