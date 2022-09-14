@@ -7,3 +7,11 @@ module "vpc" {
   default_vpc_id = var.default_vpc_id
   default_vpc_cidr =var.default_vpc_cidr
 }
+
+output "out" {
+  value = module.vpc.out
+}
+
+output "subnet_ids" {
+  value = module.vpc.subnet_ids
+}
