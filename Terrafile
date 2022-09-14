@@ -1,3 +1,3 @@
 vpc:
-  source: "https://github.com/rishdus/vpc-basic-code.git"
+  source: "https://github.com/rishdus/tf-module-vpc.git"
   version: "main"
